@@ -1,0 +1,22 @@
+{
+    "name": "lornkarios/mina",
+    "description": "Laravel admin for artisans",
+    "autoload": {
+        "psr-4": {
+            "Lornkarios\\Mina\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kovalev Anton"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lornkarios\\Mina\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
